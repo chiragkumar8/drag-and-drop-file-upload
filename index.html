@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop File Upload</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="drop-zone" id="dropZone">
+        <div class="hint-text" id="hintText">Drop an image here or click to browse</div>
+        <div class="preview-container" id="previewContainer" style="display: none;">
+            <img class="preview-image" id="previewImage" alt="Preview">
+            <button class="remove-btn" id="removeBtn" title="Remove image">×</button>
+        </div>
+        <div class="change-hint" id="changeHint" style="display: none;">Click image to change or use the button below</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
